@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "rickmsn:palletizer-102",
+  "models": [
+    {
+      "api": "rdk:service:generic",
+      "model": "rickmsn:palletizer-102:palletizer",
+      "markdown_link": "rickmsn_palletizer-102_palletizer.md"
+    }
+  ],
+  "visibility": "private",
+  "url": "",
+  "description": "Palletizer automation; allows for palletizer to run through Viam server without the need of a local host running the scripts",
+  "markdown_link": "README.md",
+  "entrypoint": "dist/main",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64",
+      "darwin/arm64"
+    ]
+  }
+}
