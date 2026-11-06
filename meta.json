@@ -9,7 +9,7 @@
     }
   ],
   "visibility": "private",
-  "url": "",
+  "url": "https://github.com/groinfetus/palletizer-102",
   "description": "Palletizer automation; allows for palletizer to run through Viam server without the need of a local host running the scripts",
   "markdown_link": "README.md",
   "entrypoint": "dist/main",
